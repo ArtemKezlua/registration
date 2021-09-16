@@ -1,0 +1,105 @@
+body {
+    height: 100vh;
+    background-color: gray;
+    color: gray;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-form {
+    background-color: whitesmoke;
+    padding: 20px;
+    width: 400px;
+}
+
+.pos {
+    position: relative;
+}
+
+.register {
+    font-size: 2.5em;
+    margin: 0;
+    text-align: center;
+    font-weight: 100;
+    color: #5d5d5d;
+    background-color: whitesmoke;
+    z-index: 5;
+    position: absolute;
+    left: 29%;
+    padding: 0 10px;
+}
+
+.register-line {
+    height: 43px;
+}
+
+.register-line::before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: #bfbfbf;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.first-last-name {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.first-last-name > input {
+    padding: 12px 15px;
+    width: 39%;
+    border: 1px solid #ababab;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.email-password {
+    padding: 12px 15px;
+    margin: 10px 0;
+    width: 92%;
+    border: 1px solid #ababab;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.checkbox {
+    display: flex;
+    padding: 10px 0;
+}
+
+.checkbox > div {
+    padding-left: 10px;
+}
+
+.a-color {
+    color: #5bb15b;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.checked {
+    width: 100%;
+    height: 45px;
+    color: white;
+    background: linear-gradient(0deg, rgba(71, 115, 26, 1) 0%, rgba(62, 180, 78, 1) 100%);
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+    font-weight: 900;
+    margin: 10px 0 20px;
+    cursor: pointer;
+}
+
+.white-text > a,
+.white-text {
+    color: white;
+    padding-top: 20px;
+}
